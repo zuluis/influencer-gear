@@ -1,28 +1,76 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
-header{
-  padding: 20px ;
+*{
+  margin: 0;
+  padding: 0;
 }
 nav{
   display: flex;
-  justify-content: space-around;
-  font-size: 40px;
-  font-style: italic;
-  color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10px 60px  100px;
+
+}
+.nav-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #424242;
 }
 nav > ul{
   display: flex;
 }
-nav li{
+nav li {
   list-style: none;
-  font-weight: 500;
-margin: 20px 10px 10px 10px;
-  font-size: 1.3rem;
-  color: black;
+  font-weight: 600;
+  margin-right: 30px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+nav li a {
+  text-decoration: none;
+  color: #424242;
 }
 nav img{
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
   width: 15px;
   height: 40px;
+}
+.header{
+  padding: 10px;
+  background-image: url('../images/Circle design.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 500px;
+  margin: 0 50px 0 0;
+}
+.container{
+  padding: 50px 5px 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.insert{
+  margin: 10px;
+  font-size: 3rem;
+  color: gray;
+}
+.inclass{
+  margin: 10px 5px;
+}
+.primary{
+  padding: 5px 5px ;
+  margin: 10px 5px ;
+  border: 30px;
+  background-color: rgb(216, 112, 140);
+  color: white;
+  font-size: 20px;
+  border-radius: 50px;
+}
+.banner-content{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  border-top: 4px solid whitesmoke;
+  border-bottom: 4px solid whitesmoke;
 }
