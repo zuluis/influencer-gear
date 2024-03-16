@@ -59,7 +59,7 @@ nav img{
   margin: 10px 5px;
 }
 .primary{
-  padding: 5px 5px ;
+  padding: 5px 10px 5px 10px;
   margin: 10px 5px ;
   border: 30px;
   background-color: rgb(216, 112, 140);
@@ -74,3 +74,85 @@ nav img{
   border-top: 4px solid whitesmoke;
   border-bottom: 4px solid whitesmoke;
 }
+main{
+  max-width: 1440px;
+  margin: 30px;
+}
+.teams{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size:2rem ;
+  color: #424242;
+}
+.natural{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+  margin: 70px 70px 70px 70px;
+}
+.photo{
+  border: 1px solid whitesmoke;
+  padding: 20px;
+  border-radius: 9px;
+}
+.photo > h2{
+  color: gray;
+}
+.photo p{
+  color: #424242;
+}
+.light{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.touch{
+  padding: 0 40px;
+}
+.pink{
+  font-size: 40px;
+}
+.gray{
+  font-size: 20px;
+  margin: 10px;
+}
+.btn-primary{
+  border: 2px solid;
+  padding: 10px 24px 10px 24px;
+  margin: 0 10px;
+  background: palevioletred;
+  color: white;
+}
+
+
+
+@media screen and (max-width:576px){
+  .header{
+    background-image: none;
+
+  }
+  nav,
+  .container,
+  .banner-content,
+  .light,
+  .touch
+  {
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 10px;
+    
+  }
+  .banner{
+    font-size: 10px;
+  }
+  .natural{
+    grid-template-columns: 1fr;
+  }
+  .btn-primary{
+    padding: 10px;
+  }
+
+}
+
