@@ -125,6 +125,31 @@ main{
   background: palevioletred;
   color: white;
 }
+.block{
+  background-color:darkblue;
+  color: white;
+  height: 200px;
+  padding:30px ;
+
+}
+.in-block{
+  position: relative;
+  left: 40%;
+  
+  
+}
+.of-block{
+  position: relative;
+  left: 40%;
+  top: 10px;
+}
+.block img{
+  position: relative;
+  left: 40%;
+  top: 10px;
+  margin: 5px;
+
+}
 
 
 
@@ -152,6 +177,10 @@ main{
   }
   .btn-primary{
     padding: 10px;
+  }
+  .block{
+    padding-left: 0px;
+    margin-left: 2px;
   }
 
 }
